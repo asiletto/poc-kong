@@ -25,4 +25,9 @@ $ echo "/bin/bash"|chsh cassandra
 
 Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 
+```
+ $ sudo dpkg -i kong-enterprise-edition-0.32.trusty.all.deb
+ $ sudo cp license-xxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxx.json /etc/kong/license.json
+```
+
 ## configure kong
