@@ -37,3 +37,9 @@ Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 ```
 database = cassandra
 ```
+## run kong
+
+```
+ $ kong migrations up
+ $ kong start
+```
