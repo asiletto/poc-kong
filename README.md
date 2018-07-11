@@ -49,8 +49,18 @@ admin console available at http://localhost:8002/dashboard
 
 ## test apis
 
+define api
+```
 $ curl -i -X POST \
   --url http://localhost:8001/apis/ \
   --data 'name=example-api' \
   --data 'hosts=example.com' \
-  --data 'upstream_url=http://mockbin.org'
+  --data 'upstream_url=http://my-internal-apache/demo/'
+```
+
+call api
+```
+$ curl -i -X GET \
+  --url http://localhost:8000/v1.json \
+  --header 'Host: example.com'
+```
