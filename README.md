@@ -36,6 +36,7 @@ Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 /etc/kong/kong.conf
 ```
 database = cassandra
+admin_listen = 0.0.0.0:8001, 0.0.0.0:8444 ssl
 ```
 ## run kong
 
@@ -43,3 +44,4 @@ database = cassandra
  $ kong migrations up
  $ kong start
 ```
+admin console available at http://localhost:8002/dashboard
