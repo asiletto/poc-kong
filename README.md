@@ -11,6 +11,11 @@ Ubuntu 18.04 LTS http://releases.ubuntu.com/releases/18.04/ on VirtualBox with B
 
 ## install cassandra
 
+ $ echo "deb http://debian.datastax.com/community stable main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+ $ curl -L http://debian.datastax.com/debian/repo_key | sudo apt-key add -
+ $ sudo apt-get update
+ $ sudo apt-get install cassandra
+ 
 ## install kong
 
 ## configure kong
