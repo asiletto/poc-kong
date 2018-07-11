@@ -38,6 +38,7 @@ Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 database = cassandra
 admin_listen = 0.0.0.0:8001, 0.0.0.0:8444 ssl
 vitals = on
+portal = on
 ```
 ## run kong
 
