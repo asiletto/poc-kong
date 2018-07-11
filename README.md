@@ -32,3 +32,8 @@ Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 ```
 
 ## configure kong
+
+/etc/kong/kong.conf
+```
+database = cassandra
+```
