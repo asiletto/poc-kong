@@ -39,6 +39,7 @@ database = cassandra
 admin_listen = 0.0.0.0:8001, 0.0.0.0:8444 ssl
 vitals = on
 portal = on
+portal_auth = basic-auth
 ```
 ## run kong
 
