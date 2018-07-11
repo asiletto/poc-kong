@@ -7,7 +7,7 @@ Ubuntu 18.04 LTS http://releases.ubuntu.com/releases/18.04/ on VirtualBox with B
 
 ## install java
 
- # apt-get install openjdk-8-jdk-headless
+ $ sudo apt-get install openjdk-8-jdk-headless
 
 ## install cassandra
 
