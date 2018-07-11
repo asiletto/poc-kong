@@ -3,7 +3,7 @@ kong enterprise proof of concept
 
 ## install OS
 
-CentOS 7 from http://mirrors.mit.edu/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
+Ubuntu 18.04 LTS http://releases.ubuntu.com/releases/18.04/ on VirtualBox with Bridged network adapter.
 
 ## install cassandra
 
