@@ -21,6 +21,8 @@ $ sudo apt-get install cassandra
 $ echo "/bin/bash"|chsh cassandra
 ```
 
-## install kong
+## install kong enterprise
+
+Download kong-enterprise-edition-0.32.trusty.all.deb and license.json
 
 ## configure kong
